@@ -1,77 +1,87 @@
-*{
-    margin: 8px;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+* {
+  margin: 8px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-title{
-    text-align: center;
-    display: none;
+title {
+  text-align: center;
+  display: none;
 }
 
-body{
-background-color: rgb(36, 36, 36);
-color: #dadada;
+body {
+  background-color: rgb(36, 36, 36);
+  color: #dadada;
 }
 
-.container{
-    display: flex;
-    margin: 0;
+.container {
+  display: flex;
+  margin: 0;
 }
 
-img{
-    border-radius: 50%;
-    margin: 0;
-    padding: 0;
-    width: 20vh;
+img {
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+  width: 20vh;
 }
 
-h1{
-    font-size: 50px;
-    margin: 20px 0;
+h1 {
+  font-size: 50px;
+  margin: 20px 0;
 }
 
-.colored{   
-    color: #adff28;
+.colored {
+  color: #adff28;
 }
 
-p{
-    font-size: 20px;
+p {
+  font-size: 20px;
 }
 
-div{
-    font-size: 20px;
-    margin: 20px 0;
-    text-align: center;
+div {
+  font-size: 20px;
+  margin: 20px 0;
+  text-align: center;
 }
 
-a{
-    text-decoration: none;
-    color: #adff28;
-    cursor: pointer;
-    border: 1px solid #adff28;
-    padding: 10px;
-    transition: 0s all ease in out; 
-}	
-
-a:hover{
-    background-color: #adff28;
-    color: black;
-    transition: all 0.30s ease-in-out;
+a {
+  text-decoration: none;
+  color: #adff28;
+  cursor: pointer;
+  border: 1px solid #adff28;
+  padding: 10px;
+  transition: 0s all ease in out;
 }
 
-footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-    margin: 250px 0 0 0;    
-    text-align: center;
+a:hover {
+  background-color: #adff28;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
 
+hr {
+  height: 1px;
+  width: 45vh;
+}
+
+.wrapper {
+  border: 1px solid #adff28;
+  padding: 10px;
+  width: 25vh;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  margin: 250px 0 0 0;
+  text-align: center;
 }
